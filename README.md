@@ -6,7 +6,10 @@ This repository provides a short waypoints.py script, which reads the robot's pa
 ```
 roscore
 ```
-2. Then, this script can be run with rosrun in a second terminal
+2. Then, this script can be run with rosrun in a second terminal:
+```
+rosrun <package_name> waypoints.py
+```
 3. In the third terminal, play the bag file using the command:
 ```
 rosbag play -i <bag_file_name>
