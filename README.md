@@ -14,4 +14,4 @@ rosrun <package_name> waypoints.py
 ```
 rosbag play -i <bag_file_name>
 ```
-4. As soon as playing is finished, you can stop using the script by pressing Ctrl + C in the second terminal. All necessary data will be written into csv and png files.
+4. As soon as playing is finished, you can stop using the script by pressing Ctrl+C in the second terminal. All necessary data will be written into csv and png files.
